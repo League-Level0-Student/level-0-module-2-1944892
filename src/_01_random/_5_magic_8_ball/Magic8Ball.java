@@ -20,6 +20,7 @@ public class Magic8Ball {
 	
 	// 4. If the random number is 0
 
+}
 	// -- tell the user "Yes"
 
 	// 5. If the random number is 1
@@ -34,4 +35,4 @@ public class Magic8Ball {
 
 	// -- write your own answer
 
-}
+

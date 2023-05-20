@@ -28,7 +28,7 @@ public class AnimalFarm {
 		/* 1. Ask the user which animal they want, then see and hear 
 		 *    the animal they chose using one of the methods below.
 		*/			 
-			
+		JOptionPane.showMessageDialog(null,"What Animal would u like (cow,duck,dog,cator llama)" );
 		/* 2. Make it so that the user can keep entering new animals. */
 
 	}

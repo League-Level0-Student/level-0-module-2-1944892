@@ -10,7 +10,8 @@ public class FixTheRandom {
 	
 	public static void main(String[] args) {
 		
-		Random random = new Random();
+		Random random
+		= new Random();
 		
 		int numnber = random.nextInt(5);
 		

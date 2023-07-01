@@ -55,7 +55,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         paperButton.setPreferredSize(buttonDim);
         scissorsButton.setPreferredSize(buttonDim);
         
-        instructionLabel.setText("Choose Your Weapon!");
+        instructionLabel.setText("Haaaaaaaaaaa");
         
         add(instructionLabel);
         add(rockButton);
@@ -101,9 +101,9 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         }else if((selection == 0 && opponentSelection == 2) || 
                  (selection == 1 && opponentSelection == 0) ||
                  (selection == 2 && opponentSelection == 1)){
-            JOptionPane.showMessageDialog(null, "You Win!");
+            JOptionPane.showMessageDialog(null, "wow");
         }else{
-            JOptionPane.showMessageDialog(null, "You Lose!");
+            JOptionPane.showMessageDialog(null, "sucker");
         }
     }
     
